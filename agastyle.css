@@ -1,0 +1,50 @@
+﻿.color {
+    color: green;
+}
+
+.font {
+    font-family: 'Anton', sans-serif;
+}
+
+.webdev-image{
+    margin: 20px auto 20px auto;
+    max-width: 50%
+}
+
+.example {
+  background-color: #f1f1f1;
+  border: 1px solid #999
+  padding: 100px;
+  margin: 50px;
+}
+
+.treepng{
+    width: 21%;
+    transition: width 0.6s ease-in-out, background-image 0.6s ease-in-out;
+}
+
+.treepng:hover{
+    width: 26%;
+    transition: width 0.6s ease-in-out, background-image 0.6s ease-in-out;
+}
+
+.bigger:hover{
+    font-size: 150%;
+    border: 5px solid grey;
+}
+
+.align{
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.centered-table {
+    margin-left: auto;
+    margin-right: auto;
+}
